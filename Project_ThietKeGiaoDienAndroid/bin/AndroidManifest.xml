@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="manhinhdieukhien.com"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="manhinhdieukhien.com.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="lab1.com.lab1" 
+            ></activity>
+        <activity android:name="lab2.com.lab2" 
+            android:label="Bai tap lab 2"
+            android:icon="@drawable/firefoxicon"
+            ></activity>
+        <activity android:name="lab3.com.lab3"></activity>
+        <activity android:name="lab4.com.lab4"></activity>
+        <activity android:name="lab5.com.lab5"></activity>
+        <activity android:name="lab6.com.lab6"></activity>
+        <activity android:name="lab7.com.lab7"></activity>
+        <activity android:name="lab8.com.lab8"></activity>
+        
+    </application>
+
+</manifest>
