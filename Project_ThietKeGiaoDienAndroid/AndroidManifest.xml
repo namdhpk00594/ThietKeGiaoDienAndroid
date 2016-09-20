@@ -36,6 +36,7 @@
         <activity android:name="lab6.com.lab6"></activity>
         <activity android:name="lab7.com.lab7"></activity>
         <activity android:name="lab8.com.lab8"></activity>
+        <activity android:name="aboutme.com.aboutme"></activity>
         
     </application>
 
