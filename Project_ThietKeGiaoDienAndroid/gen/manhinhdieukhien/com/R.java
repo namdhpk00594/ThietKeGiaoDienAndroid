@@ -22,22 +22,29 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int firefoxicon=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int me=0x7f020002;
+        public static final int buttonselector=0x7f020000;
+        public static final int firefoxicon=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int me=0x7f020003;
+        public static final int stylebutton=0x7f020004;
+        public static final int stylebutton2=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f08001d;
+        public static final int Button01=0x7f080015;
+        public static final int Button02=0x7f080016;
+        public static final int Button03=0x7f080017;
+        public static final int action_settings=0x7f080021;
         public static final int btnAboutme=0x7f080007;
         public static final int btnLogin=0x7f08000a;
-        public static final int btnlab1=0x7f080015;
-        public static final int btnlab2=0x7f080016;
-        public static final int btnlab3=0x7f080017;
-        public static final int btnlab4=0x7f080018;
-        public static final int btnlab5=0x7f080019;
-        public static final int btnlab6=0x7f08001a;
-        public static final int btnlab7=0x7f08001b;
-        public static final int btnlab8=0x7f08001c;
+        public static final int btnlab1=0x7f080019;
+        public static final int btnlab2=0x7f08001a;
+        public static final int btnlab3=0x7f08001b;
+        public static final int btnlab4=0x7f08001c;
+        public static final int btnlab5=0x7f08001d;
+        public static final int btnlab6=0x7f08001e;
+        public static final int btnlab7=0x7f08001f;
+        public static final int btnlab8=0x7f080020;
+        public static final int button1=0x7f080018;
         public static final int button2=0x7f08000f;
         public static final int button3=0x7f080010;
         public static final int button4=0x7f080012;

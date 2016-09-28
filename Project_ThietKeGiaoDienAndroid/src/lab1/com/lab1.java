@@ -19,7 +19,7 @@ public class lab1 extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_lab1);
 		
-		String doc="https://drive.google.com/open?id=1B7u2Gw9709GRzk4DY2eeaMkolnsAZAYAnRFr6Xvtn_o";
+		String doc="https://drive.google.com/file/d/0BxASZH_T9NTubVl4Q2dxUEJZM00/view?usp=sharing";
 		
 		WebView wv = (WebView)findViewById(R.id.fileWebView);
 		
