@@ -1,14 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:background="@drawable/background8" >
 
-    <TextView
-        android:id="@+id/textView1"
+    <Button
+        android:id="@+id/left_buton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bai tap Lab 8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Left Menu" />
+
+    <Button
+        android:id="@+id/right_buton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Right Menu" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/right_buton"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="138dp"
+        android:layout_toRightOf="@+id/left_buton"
+        android:text="No click"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-</LinearLayout>
+</RelativeLayout>

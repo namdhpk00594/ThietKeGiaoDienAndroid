@@ -26,15 +26,20 @@
         </activity>
         <activity android:name="lab1.com.lab1" 
             ></activity>
-        <activity android:name="lab2.com.lab2" 
-            android:label="Bai tap lab 2"
-            android:icon="@drawable/firefoxicon"
-            ></activity>
-        <activity android:name="lab3.com.lab3"></activity>
+        <activity android:name="lab2.com.lab2"></activity>
+        <activity android:name="lab3.com.lab3" 
+            android:label="Bai tap lab 3"
+            android:icon="@drawable/firefoxicon"></activity>
+        <activity android:name="lab3.com.dangky"></activity>
+        <activity android:name="lab3.com.quenmatkhau"></activity>
+        <activity android:name="quantri.com.quantri"></activity>
         <activity android:name="lab4.com.lab4"></activity>
         <activity android:name="lab5.com.lab5"></activity>
         <activity android:name="lab6.com.lab6"></activity>
+        <activity android:name="lab6.com.lab6_tabhost1"></activity>
+        <activity android:name="lab6.com.lab6_tabhost2"></activity>
         <activity android:name="lab7.com.lab7"></activity>
+        <activity android:name="lab7.com.ketqua"></activity>
         <activity android:name="lab8.com.lab8"></activity>
         <activity android:name="aboutme.com.aboutme"></activity>
         

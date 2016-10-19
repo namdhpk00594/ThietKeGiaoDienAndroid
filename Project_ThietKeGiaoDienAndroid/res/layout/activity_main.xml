@@ -2,62 +2,113 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background7"
     android:orientation="vertical"
     tools:context="manhinhdieukhien.com.MainActivity" >
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
         android:text="Thiet Ke Giao Dien Android"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <Button
-        android:id="@+id/btnlab1"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="BAI TAP LAB 1" />
+        android:layout_height="match_parent" 
+        android:layout_weight="10" >
 
-    <Button
-        android:id="@+id/btnlab2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="BAI TAP LAB 2" />
+        <Button
+            android:id="@+id/btnlab1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#FFF"
+            android:text="LAB 1" />
 
-    <Button
-        android:id="@+id/btnlab3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="BAI TAP LAB 3" />
+        <Button
+            android:id="@+id/btnlab2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#000"
+            android:text="LAB 2"
+            android:textColor="#FFF" />
 
-    <Button
-        android:id="@+id/btnlab4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="BAI TAP LAB 4" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/btnlab5"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="BAI TAP LAB 5" />
+        android:layout_height="match_parent"
+        android:layout_weight="10" >
 
-    <Button
-        android:id="@+id/btnlab6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="BAI TAP LAB 6" />
+        <Button
+            android:id="@+id/btnlab3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#000"
+            android:text="LAB 3"
+            android:textColor="#FFF" />
 
-    <Button
-        android:id="@+id/btnlab7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="BAI TAP LAB 7" />
+        <Button
+            android:id="@+id/btnlab4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#FFF"
+            android:text="LAB 4" />
 
-    <Button
-        android:id="@+id/btnlab8"
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="BAI TAP LAB 8" />
+        android:layout_height="match_parent"
+        android:layout_weight="10" >
+
+        <Button
+            android:id="@+id/btnlab5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#FFF"
+            android:text="LAB 5" />
+
+        <Button
+            android:id="@+id/btnlab6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#000"
+            android:text="LAB 6"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10" >
+
+        <Button
+            android:id="@+id/btnlab7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#000"
+            android:text="LAB 7"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btnlab8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#FFF"
+            android:text="LAB 8" />
+
+    </LinearLayout>
 
 </LinearLayout>

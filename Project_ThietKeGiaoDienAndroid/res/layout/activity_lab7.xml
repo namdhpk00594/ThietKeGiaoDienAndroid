@@ -2,13 +2,48 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background5"
     android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+        android:id="@+id/txtTen"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bai tap Lab 7"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:text="Intent Kèm Gói"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/edtNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Họ Tên" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtNhap2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Địa chỉ" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="15dp" >
+
+        <Button
+            android:id="@+id/btnGui"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Gửi" />
+
+    </LinearLayout>
 
 </LinearLayout>
